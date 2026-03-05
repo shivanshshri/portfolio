@@ -32,9 +32,8 @@ section{
     position: fixed;
     z-index: 1000;
     top: 0;
-    right: 0;
-    left: 0;
-    padding: 1.2% 4rem;
+    width: 100%;
+    padding: 1.2% 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,6 +47,9 @@ section{
     font-weight: 800;
     cursor: pointer;
     color: var(--bg-color);
+}
+.navbar{
+    width: fit-content;
 }
 .logo:hover{
     transform: scale(1.1);
@@ -68,6 +70,7 @@ section{
     cursor: pointer;
     color: var(--bg-color);
     display: none;
+    margin-right: 20px;
 }
 
 /* home-section style */
@@ -322,8 +325,8 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .content1{
     margin-right: 20px;
@@ -352,7 +355,8 @@ span{
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0px 15px 25px var(--main-color);
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
 }
 .form-container h3{
     color: var(--bg-color);
@@ -598,6 +602,7 @@ button{
     .about-content .read-more{
         font-size: 2rem;
     }
+    
 }
 @media (max-width: 618px){
     .home-img img{
@@ -640,25 +645,71 @@ button{
         font-size: 1.7rem;
     }
 }
-@media (max-width: 450px){
+/* @media (max-width: 455px){
+    .form-container{
+        width: 400px;
+        box-shadow: 0px 10px 20px var(--main-color);
+    }
+}
+@media (max-width: 435px){
+    .form-container{
+        width: 370px;
+    }
+    .about-img img{
+        scale: 0.8;
+    }
+} */
+ @media (max-width: 430px){
+    .about-img img{
+        scale: 0.8;
+    }
+ }
+@media (max-width: 400px){
+    section{
+        padding: 4rem 0% 1rem;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    .header{
+        padding: 2.2% 1rem;
+        justify-content: space-between;
+    }
+    .resume-btn{
+        margin-bottom: 1rem;
+    }
+    .about-section{
+        width: 100%;
+        padding: 2% 2rem;
+    }
+    .about-img img{
+        scale: 0.3;
+    }
     .service-content{
-        padding: 2% 5rem;
+        padding: 2% 2rem;
+    }
+    .contact-content{
+       padding: 1% 2rem;
     }
     .contact-section{
-        padding: 1% 3rem;
+        
+    }
+    .contact-img{
+        padding: 1% 1rem;
     }
     .form-container{
-        padding: 2rem;
-        width: 400px;
+        padding: 1rem;
+        width: 350px;
         margin-bottom: 2rem;
     }
     .carousel-track{
         scale: 0.8;
-        width: 420px;
+        width: 360px;
         
     }
     .carousel-container{
-        padding: 0.3% 1rem 1%;
+        padding: 0rem;
+        scale: 0.7;
     }
     .card{
         width: 300px;
@@ -666,7 +717,8 @@ button{
     .about-img img{
         scale: 0.8;
     }
+    
 }
-@media (max-width: 285px){
-
+@media (max-width: 360px){
+       
 }
