@@ -302,7 +302,7 @@ span{
 }
 .carousel-track{
     display: flex;
-    animation: scroll 7s linear infinite;
+    animation: scroll 3s linear infinite;
 }
 .carousel-container:hover .carousel-track{
     animation-play-state: paused;
@@ -638,5 +638,29 @@ button{
     }
     .service-content .read-more{
         font-size: 1.7rem;
+    }
+}
+@media (max-width: 450px){
+    .service-content{
+        padding: 2% 5rem;
+    }
+    .contact-section{
+        padding: 1% 3rem;
+    }
+    .form-container{
+        padding: 2rem;
+        width: 400px;
+        margin-bottom: 2rem;
+    }
+    .carousel-track{
+        scale: 0.8;
+        width: 420px;
+        
+    }
+    .carousel-container{
+        padding: 0.3% 1rem 1%;
+    }
+    .card{
+        width: 300px;
     }
 }
