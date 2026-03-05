@@ -645,20 +645,7 @@ button{
         font-size: 1.7rem;
     }
 }
-/* @media (max-width: 455px){
-    .form-container{
-        width: 400px;
-        box-shadow: 0px 10px 20px var(--main-color);
-    }
-}
-@media (max-width: 435px){
-    .form-container{
-        width: 370px;
-    }
-    .about-img img{
-        scale: 0.8;
-    }
-} */
+
  @media (max-width: 430px){
     *{
         overflow-x: hiden;
@@ -680,6 +667,9 @@ button{
     }
     .resume-btn{
         margin-bottom: 1rem;
+    }
+    .home-content span{
+        font-size: 2rem;
     }
     .about-section{
         width: 100%;

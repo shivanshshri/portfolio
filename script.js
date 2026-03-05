@@ -10,3 +10,11 @@ window.onscroll = () => {
     menu.classList.remove('bx-x');
     navbar.classList.remove('active');
 }
+
+ const typed = new Typed('.multi-text', {
+      strings: ['a Frontend Developer', 'an App Developer', 'a Web Designer'],
+      typeSpeed: 80,
+      backSpeed: 80,
+      backDelay: 1200,
+      loop: true,
+    });
