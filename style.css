@@ -345,7 +345,7 @@ span{
     font-size: 3rem;
 }
 .form-container{
-    animation: appear2 linear;
+    animation: appea linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
     background-color:#00766a98;
@@ -663,4 +663,7 @@ button{
     .card{
         width: 300px;
     }
+}
+@media (max-width: 285px){
+
 }
